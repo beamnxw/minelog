@@ -1,0 +1,37 @@
+{
+  "name": "minelog",
+  "version": "0.1.0",
+  "private": false,
+  "description": "MineLog harness — GPT-6 Astra plans, Jev decides, one vanilla Minecraft body. Backend behind minelog.xyz.",
+  "type": "module",
+  "bin": {
+    "minelog": "./src/index.mjs"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "dry": "node src/index.mjs --dry-run",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "homepage": "https://minelog.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beamnxw/minelog"
+  },
+  "keywords": [
+    "minecraft",
+    "agent",
+    "jev",
+    "gpt-6-astra",
+    "minelog",
+    "system-one"
+  ],
+  "dependencies": {
+    "mineflayer": "^4.33.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.10"
+  }
+}

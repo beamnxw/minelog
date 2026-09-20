@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+runs/
+*.log
+dist/
+.DS_Store
+server/*.jar
+server/world*/
+native-client/runtime/
+*.mp4
+*.finished.json
+credentials.json
