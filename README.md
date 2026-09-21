@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="MineLog" width="360">
+</p>
+
 # MINELOG
 
 **GPT-6 Astra plans. Jev decides. One vanilla Minecraft body.**
