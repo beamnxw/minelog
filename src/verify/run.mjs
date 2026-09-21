@@ -1,6 +1,6 @@
 /**
  * A MineLog run is done when the dragon is dead and the body used the exit portal.
- * Deaths during the campaign do not fail the run — they are on the stream on purpose.
+ * Deaths during the campaign do not fail the run - they are on the stream on purpose.
  */
 export function verifyRun(events) {
   const kinds = events.map((e) => e.kind || e.event || e.type);

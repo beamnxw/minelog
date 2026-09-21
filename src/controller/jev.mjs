@@ -3,7 +3,7 @@ import { compactState } from "../observe/snapshot.mjs";
 import { criteriaFor } from "./actions.mjs";
 
 /**
- * Jev — TypeSafe System One.
+ * Jev - TypeSafe System One.
  * One call, three questions in parallel: which action, is it safe, how urgent.
  * No prose. Typed answers the loop can branch on.
  *

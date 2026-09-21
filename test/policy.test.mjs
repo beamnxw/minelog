@@ -4,7 +4,7 @@ import { reflex, gate } from "../src/controller/policy.mjs";
 import { emptySnapshot } from "../src/observe/snapshot.mjs";
 import { legalActions } from "../src/controller/actions.mjs";
 
-test("lava and drowning are reflexes — Jev is not consulted", () => {
+test("lava and drowning are reflexes - Jev is not consulted", () => {
   assert.equal(reflex(emptySnapshot({ lavaAdjacent: true })), "flee");
   assert.equal(reflex(emptySnapshot({ air: 20 })), "flee");
   assert.equal(reflex(emptySnapshot({ onFire: true })), "flee");

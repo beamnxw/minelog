@@ -47,7 +47,7 @@ The eight stages are the ones the site already renders:
 7. Find the Stronghold
 8. Defeat the Ender Dragon
 
-Deaths are part of the run. The stream is supposed to show the recovery. A death does not fail verification — only a missing dragon kill or a missing exit-portal event does.
+Deaths are part of the run. The stream is supposed to show the recovery. A death does not fail verification - only a missing dragon kill or a missing exit-portal event does.
 
 ## Tick
 
@@ -57,9 +57,9 @@ Deaths are part of the run. The stream is supposed to show the recovery. A death
 2. **Reflex.** Lava, fire, drowning, void, creeper ≤ 5 blocks, hp ≤ 4, just-died. These fire in code. Jev is not asked.
 3. **Plan (async).** If the plan is older than `PLANNER_INTERVAL_MS` or the stage changed, kick Astra. Do not await it. If the stage moves while Astra is in flight, drop the answer.
 4. **Decide.** Send snapshot + plan + the *legal* action list to Jev as three questions in one System One call:
-   - `Choice` — which action
-   - `Noul` — is that action safe
-   - `Score` — how urgent is this tick
+   - `Choice` - which action
+   - `Noul` - is that action safe
+   - `Score` - how urgent is this tick
 5. **Gate.** Illegal id → wait. `safe === false` → flee or wait. Confidence < 0.45 → wait. Code, not the model.
 6. **Execute.** Mineflayer pathfinder / dig / attack / consume. One action, then yield.
 7. **Log.** Write the header + `OBS` / `JEV` / `RESULT` / `PERF` / `EVENT` lines the site already parses.
@@ -72,8 +72,8 @@ The creeper lesson is encoded as a skill and a reflex: never wait for a model wh
 
 ## Data that leaves the process
 
-- `runs/<id>/runtime.log` — public, this is the product.
-- `runs/<id>/events.jsonl` — optional evidence (deaths, dragon, portal).
+- `runs/<id>/runtime.log` - public, this is the product.
+- `runs/<id>/events.jsonl` - optional evidence (deaths, dragon, portal).
 - Model calls send a *compact* snapshot (no screenshots, no secrets). Keys stay in the environment.
 
 Recordings and worlds stay local. They are gitignored.

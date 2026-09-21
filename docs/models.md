@@ -1,6 +1,6 @@
 # Models
 
-## Jev — System One
+## Jev - System One
 
 Official API: `POST https://api.typesafe.ai/v1/systemone`
 
@@ -26,7 +26,7 @@ Jev returns typed values, a probability distribution, and confidence. There is n
 
 Default model id: `jev-latest` (pinned responses currently report `jev-1.13.x`).
 
-## Astra — GPT-6 Astra
+## Astra - GPT-6 Astra
 
 Planner only. Chat Completions, JSON object mode.
 

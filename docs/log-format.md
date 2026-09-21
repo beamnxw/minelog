@@ -23,7 +23,7 @@ HH:MM:SS.mmm  KIND        k=v k=v
 
 - Timestamp is **exactly 12 characters** (`00:00:00.000`).
 - Two spaces, then `KIND` (the viewer reads `raw.slice(14)`).
-- Payload is space-separated `key=value` tokens. Values must not contain spaces — the writer replaces them with `_`.
+- Payload is space-separated `key=value` tokens. Values must not contain spaces - the writer replaces them with `_`.
 
 Kinds the site groups:
 

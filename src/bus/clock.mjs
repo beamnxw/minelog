@@ -11,7 +11,7 @@ export function createClock(start = Date.now()) {
   };
 }
 
-/** Format elapsed ms as HH:MM:SS.mmm — first 12 chars of a minelog.xyz log line. */
+/** Format elapsed ms as HH:MM:SS.mmm - first 12 chars of a minelog.xyz log line. */
 export function formatStamp(ms) {
   const t = Math.max(0, ms) / 1000;
   const h = Math.floor(t / 3600);

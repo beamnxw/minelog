@@ -24,10 +24,10 @@ Not affiliated with Mojang or Microsoft.
 Code owns the tick. Models are guests.
 
 1. **Observe** the world into JSON (hp, hunger, inventory, hostiles, light, nearby blocks).
-2. **Reflex** in code — lava, drowning, creeper in your face, just died. No model.
+2. **Reflex** in code - lava, drowning, creeper in your face, just died. No model.
 3. **Astra** (GPT-6 Astra) sets the stage, the goal, the waypoint. Slow. Background. Never blocks a tick.
 4. **Jev** (TypeSafe System One) picks **one** bounded action from a closed catalog, plus a safety noul and an urgency score. Fast. Typed. No prose.
-5. **Gate** in code — illegal action, low confidence, unsafe noul → wait or flee.
+5. **Gate** in code - illegal action, low confidence, unsafe noul → wait or flee.
 6. **Execute** through the ordinary player protocol.
 7. **Log** in the exact `runtime.log` format the site already parses.
 
@@ -53,7 +53,7 @@ Dry-run writes a sample `runs/local-01/runtime.log` without a Minecraft server o
 A live body needs:
 
 - a vanilla Minecraft Java server (`MC_HOST` / `MC_PORT`)
-- `TYPESAFE_API_KEY` for Jev — [console.typesafe.ai](https://console.typesafe.ai)
+- `TYPESAFE_API_KEY` for Jev - [console.typesafe.ai](https://console.typesafe.ai)
 - `OPENAI_API_KEY` for Astra (`gpt-6-astra`), or `OPENROUTER_API_KEY` as a relay
 
 ```bash
@@ -65,7 +65,7 @@ Touch `runs/<RUN_ID>/stop` to halt on the next tick.
 ## Layout
 
 ```
-src/loop.mjs            tick — two minds, one body
+src/loop.mjs            tick - two minds, one body
 src/planner/            Astra
 src/controller/         Jev + action catalog + policy
 src/observe/            structured snapshot

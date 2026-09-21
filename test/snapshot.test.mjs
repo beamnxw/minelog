@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { emptySnapshot, compactState } from "../src/observe/snapshot.mjs";
 
-test("compact state is what Jev sees — nested JSON, no screenshots", () => {
+test("compact state is what Jev sees - nested JSON, no screenshots", () => {
   const snap = emptySnapshot({
     health: 17,
     hostiles: [{ type: "creeper", dist: 6 }],

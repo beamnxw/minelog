@@ -4,7 +4,7 @@
 
 ```
 src/
-  index.mjs              CLI — live run or --dry-run
+  index.mjs              CLI - live run or --dry-run
   loop.mjs               the tick
   config.mjs             stages, model ids, policy numbers
   observe/snapshot.mjs   Mineflayer → JSON

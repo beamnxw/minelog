@@ -1,4 +1,4 @@
-/** MineLog campaign — the eight stages the live viewer renders. */
+/** MineLog campaign - the eight stages the live viewer renders. */
 export const PLAN = [
   "Wood & stone tools",
   "Food, bed & first iron",

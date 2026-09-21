@@ -3,7 +3,7 @@ import { compactState } from "../observe/snapshot.mjs";
 import { parsePlannerJson } from "./schema.mjs";
 
 /**
- * GPT-6 Astra — the slow mind.
+ * GPT-6 Astra - the slow mind.
  * Returns a structured plan. Never moves the player.
  * Skills it names must already exist in src/skills or be proposed as new modules.
  */

@@ -1,6 +1,6 @@
 /**
  * Skills are named procedures Jev can lean on and Astra can request.
- * Each skill is a bounded recipe — not a full agent. Code still executes it.
+ * Each skill is a bounded recipe - not a full agent. Code still executes it.
  *
  * Astra may add a new skill after a failure by returning { skills: ["name"] }.
  * Unknown names are ignored until a module exists under src/skills/.
