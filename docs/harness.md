@@ -35,7 +35,7 @@ node src/index.mjs
 
 ## Body
 
-`src/protocol/bot.mjs` is the only place packets leave the process. Pathfinder moves. `dig` / `attack` / `consume` are vanilla. The camera in `src/protocol/camera.mjs` rate-limits look so a mirrored native client (used for the stream, not for control) does not snap.
+`src/protocol/bot.mjs` is the only place packets leave the process. Pathfinder moves. `dig` / `attack` / `consume` are ordinary player packets. The camera in `src/protocol/camera.mjs` rate-limits look so a mirrored native client (used for the stream, not for control) does not snap.
 
 ## Skills
 

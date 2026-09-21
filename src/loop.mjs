@@ -12,7 +12,7 @@ import { emptyPlan } from "./planner/schema.mjs";
  * 3. Kick Astra if the plan is stale - never wait for it
  * 4. Jev picks one legal action
  * 5. Gate on confidence / legality / safety
- * 6. Execute through the vanilla protocol
+ * 6. Execute through the player protocol
  * 7. Write the minelog.xyz runtime.log
  */
 export function createLoop(ctx) {

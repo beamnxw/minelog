@@ -1,6 +1,6 @@
 # Architecture
 
-MineLog is two minds in one vanilla Minecraft body.
+MineLog is two minds in one Minecraft body.
 
 The live site at [minelog.xyz](https://minelog.xyz) is the wrapper: gameplay on the left, `runtime.log` on the right, world status below. This repository is the backend that produces that log and moves the player.
 
@@ -18,7 +18,7 @@ The live site at [minelog.xyz](https://minelog.xyz) is the wrapper: gameplay on 
         │                  │                 │
    GPT-6 Astra            Jev              CODE
    slow planner      System One         Mineflayer
-   json plan         ~100ms typed       vanilla protocol
+   json plan         ~100ms typed       player protocol
 ```
 
 Nothing in this harness edits the world except through the ordinary player protocol. No `/give`. No game-rule patches. No operator repair mid-run.

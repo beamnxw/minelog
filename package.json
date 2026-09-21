@@ -2,7 +2,7 @@
   "name": "minelog",
   "version": "0.1.0",
   "private": false,
-  "description": "MineLog harness - GPT-6 Astra plans, Jev decides, one vanilla Minecraft body. Backend behind minelog.xyz.",
+  "description": "MineLog harness - GPT-6 Astra plans, Jev decides, one Minecraft body. Backend behind minelog.xyz.",
   "type": "module",
   "bin": {
     "minelog": "./src/index.mjs"

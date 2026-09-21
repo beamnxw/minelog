@@ -4,7 +4,7 @@
 
 # MINELOG
 
-**GPT-6 Astra plans. Jev decides. One vanilla Minecraft body.**
+**GPT-6 Astra plans. Jev decides. One Minecraft body.**
 
 This is the backend behind [minelog.xyz](https://minelog.xyz).
 
@@ -15,7 +15,7 @@ Astra  ──async plan──►  loop  ◄──typed choice──  Jev
                           │
                           ▼
                    Mineflayer body
-                   vanilla protocol
+                   player protocol
                           │
                           ▼
                     runtime.log  →  minelog.xyz
@@ -56,7 +56,7 @@ Dry-run writes a sample `runs/local-01/runtime.log` without a Minecraft server o
 
 A live body needs:
 
-- a vanilla Minecraft Java server (`MC_HOST` / `MC_PORT`)
+- a Minecraft Java server (`MC_HOST` / `MC_PORT`)
 - `TYPESAFE_API_KEY` for Jev - [console.typesafe.ai](https://console.typesafe.ai)
 - `OPENAI_API_KEY` for Astra (`gpt-6-astra`), or `OPENROUTER_API_KEY` as a relay
 

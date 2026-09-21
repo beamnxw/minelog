@@ -28,7 +28,7 @@ Reply with a single JSON object, no markdown:
 
 Rules:
 - Keep stage monotonic unless the body died and lost the items that stage needed.
-- Waypoints must be reachable with vanilla movement.
+- Waypoints must be reachable with ordinary player movement.
 - After a failure, name a skill the harness should lean on. Do not invent game cheats.
 - Deaths are part of the run. Plan the recovery, then resume.`;
 
